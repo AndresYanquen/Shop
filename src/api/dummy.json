@@ -1,0 +1,48 @@
+{
+  "PageInfo": {
+    "headerMsg": "Delivery el mismo dia del pedido dentro de la R.M - Lunes a Sábado de 7:00am a 9:00pm",
+    "welcomeMsg": "Tu pedido en la puerta de tu casa",
+    "subMenuMsg": "Disfrute todos nuestros productos saludables entregados en su puerta todo el día todos los días"
+  },
+
+  "products": [
+    {
+      "id": "1",
+      "title": "ESPECIAL NOVIOS",
+      "price": 19.99,
+      "priceOff": 19.99,
+      "image" : "images/imageWedding.png"
+    },
+    {
+      "id": "2",
+      "title": "SUGAR FREE",
+      "price": 19.99,
+      "priceOff": 19.99,
+      "image" : "images/browncake.png"
+    },
+    { "id": "3", 
+      "title": "CHOCOLATE LÚCUMA",
+      "price": 19.99,
+      "priceOff": 19.99,
+      "image" : "images/dessert.png"
+    }
+  ],
+
+  "recommended":[
+    {
+      "id": "1",
+      "type" : "/Tortas",
+      "title" : "Tortas Keto",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu..."
+    },
+    {
+      "id": "2",
+      "type" : "/Tortas",
+      "title" : "Tortas Keto",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu..."
+
+    }
+  ]
+
+
+}
