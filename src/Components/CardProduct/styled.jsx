@@ -46,6 +46,7 @@ export const Text = styled.div`
 `;
 
 export const Sales = styled.div`
+  margin: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +54,7 @@ export const Sales = styled.div`
 
 export const Button = styled.button`
   color: black;
-  margin: 0px 17px 7px 0px;
+  margin: 10px 17px 7px 0px;
   display: inline-block;
   border-radius: 4px 4px 4px 4px;
   border: none;
