@@ -1,15 +1,22 @@
 import "./App.css";
 import Data from "./api/dummy.json";
 import Header from "./Components/Header";
-import { Layout, LayoutCard, LayoutCards, LayoutSlide } from "./styled";
+import {
+  Layout,
+  LayoutCard,
+  LayoutCards,
+  LayoutCoupun,
+  LayoutSlide,
+} from "./styled";
 import MainCard from "./Components/MainCard";
 import PrincipalCards from "./Components/PrincipalCards";
 import CardSlide from "./Components/CardSlide";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Card } from "@mui/material";
-import CardProduct from "./Components/CardProduct";
+import Products from "./Components/Products";
+import { useState } from "react";
+import CardCoupun from "./Components/CardCoupun";
 function App() {
-  console.log(Data);
+  //console.log(Data);
+
   return (
     <Layout>
       <Header headerMsg={Data.PageInfo.headerMsg}> </Header>
@@ -20,11 +27,12 @@ function App() {
         ))}
       </LayoutCards>
       <LayoutSlide>
-        <CardSlide></CardSlide>
+        <CardSlide cards={Data.recommended}></CardSlide>
       </LayoutSlide>
-      <LayoutCard>
-        <CardProduct></CardProduct>
-      </LayoutCard>
+      <Products classes={Data.classes}></Products>
+      <LayoutCoupun>
+        <CardCoupun></CardCoupun>
+      </LayoutCoupun>
     </Layout>
   );
 }

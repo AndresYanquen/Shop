@@ -18,3 +18,9 @@ export const LayoutSlide = styled.div`
 export const LayoutCard = styled.div`
   margin: 80px 5% 0px 5%;
 `;
+
+export const LayoutCoupun = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

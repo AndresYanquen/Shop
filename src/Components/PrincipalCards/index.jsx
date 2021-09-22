@@ -7,7 +7,6 @@ import Typography from "@mui/material/Typography";
 import { BoxBottom, BoxTop, Button, CardLayout, PriceOff } from "./styled";
 
 const PrincipalCards = (props) => {
-  console.log(props);
   return (
     <CardLayout url={props.image}>
       <BoxTop>

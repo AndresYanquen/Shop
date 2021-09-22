@@ -32,17 +32,223 @@
     {
       "id": "1",
       "type" : "/Tortas",
-      "title" : "Tortas Keto",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu..."
+      "title" : "Tortas Keto 1",
+      "beforePrice": "23.000",
+      "currentPrice":"19.000",
+      "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image":"images/singleCake.png"
     },
     {
       "id": "2",
+      "type" : "/Tortas", 
+      "title" : "Tortas Keto 2",
+      "beforePrice": "43.000",
+      "currentPrice":"40.000",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image":"images/cake.png"
+
+    },
+    {
+      "id": "3",
       "type" : "/Tortas",
-      "title" : "Tortas Keto",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu..."
+      "title" : "Tortas Keto 3",
+      "beforePrice": "150.000",
+      "currentPrice":"120.000",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image":"images/dessert.png"
+
+    },
+    {
+      "id": "4",
+      "type" : "/Tortas",
+      "title" : "Tortas Keto 4",
+      "beforePrice": "20.000",
+      "currentPrice":"15.000",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image":"images/singleCake.png"
 
     }
+  ],
+
+  "classes":[
+    {
+      "postres":[
+        {
+          "id": "1",
+          "type" : "/Tortas",
+          "title" : "Tortas Keto 1",
+          "beforePrice": "23.000",
+          "currentPrice":"19.000",
+          "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image":"images/singleCake.png"
+        },
+        {
+          "id": "2",
+          "type" : "/Tortas", 
+          "title" : "Tortas Keto 2",
+          "beforePrice": "43.000",
+          "currentPrice":"40.000",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image":"images/cake.png"
+    
+        },
+        {
+          "id": "3",
+          "type" : "/Tortas",
+          "title" : "Tortas Keto 3",
+          "beforePrice": "150.000",
+          "currentPrice":"120.000",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image":"images/dessert.png"
+    
+        },
+        {
+          "id": "4",
+          "type" : "/Tortas",
+          "title" : "Tortas Keto 4",
+          "beforePrice": "20.000",
+          "currentPrice":"15.000",
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image":"images/singleCake.png"
+    
+        }
+      ]
+    },
+
+    {"aceites":[
+      {
+        "id": "1",
+        "type" : "/aceites",
+        "title" : "Tortas Keto 1",
+        "beforePrice": "23.000",
+        "currentPrice":"19.000",
+        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+      },
+      {
+        "id": "2",
+        "type" : "/aceites", 
+        "title" : "Tortas Keto 2",
+        "beforePrice": "43.000",
+        "currentPrice":"40.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/cake.png"
+  
+      },
+      {
+        "id": "3",
+        "type" : "/aceites",
+        "title" : "Tortas Keto 3",
+        "beforePrice": "150.000",
+        "currentPrice":"120.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/dessert.png"
+  
+      },
+      {
+        "id": "4",
+        "type" : "/aceites",
+        "title" : "Tortas Keto 4",
+        "beforePrice": "20.000",
+        "currentPrice":"15.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+  
+      }
+    ]},
+    {"frutos_secos":[
+      {
+        "id": "1",
+        "type" : "/frutos_secos",
+        "title" : "Tortas Keto 1",
+        "beforePrice": "23.000",
+        "currentPrice":"19.000",
+        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+      },
+      {
+        "id": "2",
+        "type" : "/frutos_secos", 
+        "title" : "Tortas Keto 2",
+        "beforePrice": "43.000",
+        "currentPrice":"40.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/cake.png"
+  
+      },
+      {
+        "id": "3",
+        "type" : "/frutos_secos",
+        "title" : "Tortas Keto 3",
+        "beforePrice": "150.000",
+        "currentPrice":"120.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/dessert.png"
+  
+      },
+      {
+        "id": "4",
+        "type" : "/frutos_secos",
+        "title" : "Tortas Keto 4",
+        "beforePrice": "20.000",
+        "currentPrice":"15.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+  
+      }
+    ]},
+
+    {"packs":[
+      {
+        "id": "1",
+        "type" : "/packs",
+        "title" : "Tortas Keto 1",
+        "beforePrice": "23.000",
+        "currentPrice":"19.000",
+        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+      },
+      {
+        "id": "2",
+        "type" : "/packs", 
+        "title" : "Tortas Keto 2",
+        "beforePrice": "43.000",
+        "currentPrice":"40.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/cake.png"
+  
+      },
+      {
+        "id": "3",
+        "type" : "/packs",
+        "title" : "Tortas Keto 3",
+        "beforePrice": "150.000",
+        "currentPrice":"120.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/dessert.png"
+  
+      },
+      {
+        "id": "4",
+        "type" : "/packs",
+        "title" : "Tortas Keto 4",
+        "beforePrice": "20.000",
+        "currentPrice":"15.000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+        "image":"images/singleCake.png"
+  
+      }
+    ]}
+    
+    
+  
+    
+  
+    
+  
+
   ]
 
+  
 
 }
