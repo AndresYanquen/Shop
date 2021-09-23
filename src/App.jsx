@@ -1,19 +1,12 @@
 import "./App.css";
 import Data from "./api/dummy.json";
 import Header from "./Components/Header";
-import {
-  Layout,
-  LayoutCard,
-  LayoutCards,
-  LayoutCoupun,
-  LayoutSlide,
-} from "./styled";
+import { Layout, LayoutCards, LayoutCoupun, LayoutSlide } from "./styled";
 import MainCard from "./Components/MainCard";
 import PrincipalCards from "./Components/PrincipalCards";
 import CardSlide from "./Components/CardSlide";
 import Products from "./Components/Products";
-import { useState } from "react";
-import CardCoupun from "./Components/CardCoupun";
+import CardCoupon from "./Components/CardCoupon";
 function App() {
   //console.log(Data);
 
@@ -31,7 +24,9 @@ function App() {
       </LayoutSlide>
       <Products classes={Data.classes}></Products>
       <LayoutCoupun>
-        <CardCoupun></CardCoupun>
+        <LayoutSlide>
+          <CardCoupon coupon={Data.coupons}></CardCoupon>
+        </LayoutSlide>
       </LayoutCoupun>
     </Layout>
   );
