@@ -5,25 +5,27 @@ import {
   LayoutCardCoupun,
 } from "./styled";
 
-const CardCoupon = ({ coupon }) => {
+const CardCoupon = ({
+  id,
+  subtitle,
+  description,
+  companyname,
+  percentage,
+  finalRef,
+}) => {
   const image = "/images/background-gif.png";
-  console.log(coupon);
   return (
     <LayoutCardCoupun image={image}>
       <ContentCouponLeft>
         <h1>GIFT</h1>
         <h3>COUPON</h3>
-        <h4> LOREM IPSUM</h4>
-        <h5>
-          {" "}
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit unde vel ut asperiores..{" "}
-        </h5>
+        <h4> {subtitle}</h4>
+        <h5>{description}</h5>
       </ContentCouponLeft>
       <ContentCouponRigth>
-        <p>COMPANYNAME</p>
-        <h1>50%</h1>
-        <h5>LOREM IPSUM</h5>
+        <p>{companyname}</p>
+        <h1>{percentage}</h1>
+        <h5>{finalRef}</h5>
       </ContentCouponRigth>
     </LayoutCardCoupun>
   );

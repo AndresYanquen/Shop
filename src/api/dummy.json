@@ -248,7 +248,7 @@
       "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
       "companyname" : "COMPANYNAME",
       "percentage" : "50%",
-      "ref": "LOREM IPSUM"
+      "finalRef": "LOREM IPSUM"
     },
     {
       "id": "2",
@@ -256,7 +256,7 @@
       "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
       "companyname" : "COMPANYNAME",
       "percentage" : "50%",
-      "ref": "LOREM IPSUM"
+      "finalRef": "LOREM IPSUM"
     },
     {
       "id": "3",
@@ -264,7 +264,7 @@
       "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
       "companyname" : "COMPANYNAME",
       "percentage" : "50%",
-      "ref": "LOREM IPSUM"
+      "finalRef": "LOREM IPSUM"
     },
     {
       "id": "4",
@@ -272,7 +272,7 @@
       "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
       "companyname" : "COMPANYNAME",
       "percentage" : "50%",
-      "ref": "LOREM IPSUM"
+      "finalRef": "LOREM IPSUM"
     }
     
 

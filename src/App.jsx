@@ -20,12 +20,12 @@ function App() {
         ))}
       </LayoutCards>
       <LayoutSlide>
-        <CardSlide cards={Data.recommended}></CardSlide>
+        <CardSlide cards={Data.recommended} render={1}></CardSlide>
       </LayoutSlide>
       <Products classes={Data.classes}></Products>
       <LayoutCoupun>
         <LayoutSlide>
-          <CardCoupon coupon={Data.coupons}></CardCoupon>
+          <CardSlide cards={Data.coupons} render={2}></CardSlide>
         </LayoutSlide>
       </LayoutCoupun>
     </Layout>
