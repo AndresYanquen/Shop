@@ -1,12 +1,20 @@
 import "./App.css";
 import Data from "./api/dummy.json";
 import Header from "./Components/Header";
-import { Layout, LayoutCards, LayoutCoupun, LayoutSlide } from "./styled";
+import {
+  Layout,
+  LayoutCards,
+  LayoutCoupun,
+  LayoutFooter,
+  LayoutSlide,
+} from "./styled";
 import MainCard from "./Components/MainCard";
 import PrincipalCards from "./Components/PrincipalCards";
 import CardSlide from "./Components/CardSlide";
 import Products from "./Components/Products";
 import CardCoupon from "./Components/CardCoupon";
+import SocialNetworks from "./Components/SocialNetworks";
+import Footer from "./Components/Footer";
 function App() {
   //console.log(Data);
 
@@ -28,6 +36,10 @@ function App() {
           <CardSlide cards={Data.coupons} render={2}></CardSlide>
         </LayoutSlide>
       </LayoutCoupun>
+      <LayoutFooter>
+        <Footer></Footer>
+      </LayoutFooter>
+      <SocialNetworks></SocialNetworks>
     </Layout>
   );
 }

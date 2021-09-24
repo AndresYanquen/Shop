@@ -24,3 +24,10 @@ export const LayoutCoupun = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+export const LayoutFooter = styled.div`
+  margin-top: 20px;
+  width: 100vw;
+  height: 510px;
+  background: #181818;
+`;

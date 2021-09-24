@@ -3,5 +3,5 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export const SwiperLayout = styled(Swiper)`
   width: 300px;
-  height: 420px;
+  height: ${(props) => (props.render === 1 ? `420px` : `200px`)};
 `;
