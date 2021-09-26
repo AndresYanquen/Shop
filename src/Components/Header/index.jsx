@@ -14,14 +14,12 @@ const Header = ({ headerMsg }) => {
   const handleSideBar = () => {
     if (openclose === true) {
       setOpenClose(false);
-      console.log(openclose);
     } else {
       setOpenClose(true);
-      console.log(openclose);
     }
   };
   return (
-    <div>
+    <div style={{ position: "fixed", zIndex: "100", width: "100%" }}>
       <HeaderMessage>
         <p>{headerMsg} </p>
       </HeaderMessage>

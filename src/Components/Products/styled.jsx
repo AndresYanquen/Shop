@@ -47,10 +47,12 @@ export const LayoutCardsProducts = styled.div`
   @media (min-width: 600px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 10px 20px;
   }
   @media (min-width: 1100px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
   }
 `;

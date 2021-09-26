@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const CardImageAndSearch = styled.div`
   width: 100%;
+  padding-top: 110px;
   height: 300px;
   background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
     ${(props) => props.url && `url(${props.url})`};
@@ -15,13 +16,11 @@ export const CardImageAndSearch = styled.div`
 `;
 
 export const SearchBarContent = styled.div`
-  position: relative;
   width: 100%;
   height: 120%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 5;
   h1 {
     padding: 5px 10%;
     color: #ffffff;

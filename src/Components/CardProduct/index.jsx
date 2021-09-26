@@ -21,7 +21,7 @@ const CardProduct = ({
   return (
     <LayoutCardSlide>
       <CardItem>
-        <img src={image} alt="singleCake" />{" "}
+        <img src={image} alt="singleCake" />
         <Text>
           <h5>{type}</h5>
           <h1>{title} </h1>

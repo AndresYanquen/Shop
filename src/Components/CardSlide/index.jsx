@@ -8,21 +8,33 @@ import CardCoupon from "../CardCoupon";
 SwiperCore.use([Navigation]);
 
 const CardSlide = ({ cards, render }) => {
-  console.log(25, cards);
-  console.log(26, render);
   return (
     <div style={{ width: "100hw" }}>
-      <SwiperLayout render={render} navigation={true} className="mySwiper">
+      <SwiperLayout
+        breakpoints={{
+          650: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          1050: {
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+          },
+        }}
+        render={render}
+        navigation={true}
+        className="mySwiper"
+      >
         {render === 1 &&
           cards.map((p) => (
             <SwiperSlide key={p.id}>
-              <CardProduct key={p.id} {...p}></CardProduct>{" "}
+              <CardProduct key={p.id} {...p}></CardProduct>
             </SwiperSlide>
           ))}
 
         {render === 2 &&
           cards.map((p) => (
-            <SwiperSlide key={p.id}>
+            <SwiperSlide style={{ marginRight: "40px" }} key={p.id}>
               <CardCoupon key={p.id} {...p}></CardCoupon>
             </SwiperSlide>
           ))}
