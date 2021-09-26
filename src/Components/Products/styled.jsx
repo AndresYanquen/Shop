@@ -4,6 +4,9 @@ export const LayoutProducts = styled.div`
   width: 100%;
   height: auto;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const TitleProduct = styled.div`
@@ -41,6 +44,13 @@ export const Button = styled.button`
 export const LayoutCardsProducts = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @media (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px;
+  }
+  @media (min-width: 1100px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 `;
