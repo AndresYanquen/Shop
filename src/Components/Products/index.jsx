@@ -9,8 +9,6 @@ import {
 } from "./styled";
 
 const Products = ({ classes }) => {
-  console.log(10, classes);
-  console.log(11, classes[1].aceites);
   const [products, setProducts] = useState(1);
 
   const changeProducts = (typeProduct) => {

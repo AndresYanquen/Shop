@@ -9,6 +9,9 @@ export const CardImageAndSearch = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @media (min-width: 768px) {
+    height: 600px;
+  }
 `;
 
 export const SearchBarContent = styled.div`
@@ -26,17 +29,24 @@ export const SearchBarContent = styled.div`
     font-size: 36px;
     text-align: center;
   }
-
   h3 {
     font-weight: 400;
     color: #ffffff;
     padding: 5px 10%;
     text-align: center;
   }
+
+  @media (min-width: 760px) {
+    height: 100%;
+    justify-content: center;
+  }
 `;
 
 export const MainTitle = styled.div`
   padding-top: 60px;
+  @media (min-width: 760px) {
+    padding-top: 0px;
+  }
 `;
 
 export const FormStyled = styled(Form)`
