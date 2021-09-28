@@ -5,7 +5,7 @@ export const LayoutCardCoupun = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 381px;
+  width: 100%;
   height: 180px;
   margin-top: 20px;
   background-image: ${(props) => props.image && `url(${props.image})`};

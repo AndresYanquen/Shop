@@ -7,16 +7,20 @@ const SocialNetworks = ({ networks }) => {
     <FootBar>
       <EnterpriseName> Sugar Cake Por Tu-ecommerce.cl</EnterpriseName>
       <Networks>
-        <a href={networks.facebook}>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="icons/facebook.svg" alt="facebook" />
         </a>
-        <a href={networks.instagram}>
+        <a href={networks.instagram} target="_blank" rel="noopener noreferrer">
           <img src="icons/instagram.svg" alt="instagram" />
         </a>
-        <a href={networks.twitter}>
+        <a href={networks.twitter} target="_blank" rel="noopener noreferrer">
           <img src="icons/twitter.svg" alt="twitter" />
         </a>
-        <a href={networks.linkedin}>
+        <a href={networks.linkedin} target="_blank" rel="noopener noreferrer">
           <img src="icons/linkedin.svg" alt="linkedin" />
         </a>
       </Networks>

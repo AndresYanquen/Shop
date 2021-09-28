@@ -12,6 +12,7 @@
       "price": 19.99,
       "priceOff": 19.99,
       "image" : "images/imageWedding.png"
+      
     },
     {
       "id": "2",
@@ -288,10 +289,10 @@
   },
 
   "networks":{
-    "facebook": "www.facebook.com",
-    "instagram": "www.instagram.com",
-    "twitter" : "wwww.twitter.com",
-    "linkedin" : "www.linkedin.com"
+    "facebook": "https://www.facebook.com",
+    "instagram": "https://www.instagram.com",
+    "twitter" : "https://wwww.twitter.com",
+    "linkedin" : "https://www.linkedin.com"
   }
 
   

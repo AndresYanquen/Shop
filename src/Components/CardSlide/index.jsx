@@ -8,14 +8,28 @@ import CardCoupon from "../CardCoupon";
 SwiperCore.use([Navigation]);
 
 const CardSlide = ({ cards, render }) => {
+  const renderNumber = (render) => {
+    switch (render) {
+      case 1:
+        return 600;
+        break;
+
+      case 2:
+        return 1050;
+        break;
+
+      default:
+        break;
+    }
+  };
   return (
-    <div style={{ width: "100hw", marginTop: "20px" }}>
+    <div style={{ width: "100vw", marginTop: "20px" }}>
       <SwiperLayout
         breakpoints={{
-          650: {
+          600: {
             slidesPerView: 2,
             slidesPerGroup: 2,
-            spaceBetween: 100,
+            spaceBetween: 10,
           },
           1050: {
             slidesPerView: 3,

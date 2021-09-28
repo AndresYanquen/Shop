@@ -8,6 +8,7 @@ export const SwiperLayout = styled(Swiper)`
     width: ${(props) => (props.render === 1 ? `600px` : `650px`)};
     height: ${(props) => (props.render === 1 ? `420px` : `200px`)};
   }
+
   @media (min-width: 1050px) {
     width: ${(props) => (props.render === 1 ? `1050px` : `1050px`)};
     height: ${(props) => (props.render === 1 ? `420px` : `200px`)};
