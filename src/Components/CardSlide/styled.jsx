@@ -10,11 +10,11 @@ export const SwiperLayout = styled(Swiper)`
   }
 
   @media (min-width: 1050px) {
-    width: ${(props) => (props.render === 1 ? `1050px` : `1050px`)};
+    width: ${(props) => (props.render === 1 ? `1040px` : `1040px`)};
     height: ${(props) => (props.render === 1 ? `420px` : `200px`)};
   }
   @media (min-width: 1200px) {
-    width: ${(props) => (props.render === 1 ? `1200px` : `1250px`)};
+    width: ${(props) => (props.render === 1 ? `1180px` : `1180px`)};
     height: ${(props) => (props.render === 1 ? `420px` : `200px`)};
   }
 `;

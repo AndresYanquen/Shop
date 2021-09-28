@@ -23,10 +23,10 @@ const CardSlide = ({ cards, render }) => {
     }
   };
   return (
-    <div style={{ width: "100vw", marginTop: "20px" }}>
+    <div style={{ width: "100%", marginTop: "20px" }}>
       <SwiperLayout
         breakpoints={{
-          600: {
+          renderNumber: {
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 10,
@@ -34,12 +34,12 @@ const CardSlide = ({ cards, render }) => {
           1050: {
             slidesPerView: 3,
             slidesPerGroup: 3,
-            spaceBetween: 40,
+            spaceBetween: 30,
           },
-          1200: {
+          1240: {
             slidesPerView: 4,
             slidesPerGroup: 4,
-            spaceBetween: 40,
+            spaceBetween: 30,
           },
         }}
         render={render}

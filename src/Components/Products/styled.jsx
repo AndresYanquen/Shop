@@ -57,7 +57,7 @@ export const LayoutCardsProducts = styled.div`
     grid-template-rows: auto;
     grid-gap: 10px 20px;
   }
-  @media (min-width: 1100px) {
+  @media (min-width: 1200px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
