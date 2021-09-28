@@ -5,296 +5,331 @@
     "subMenuMsg": "Disfrute todos nuestros productos saludables entregados en su puerta todo el día todos los días"
   },
 
+  "sideBar": {
+    "showCoupons": "https://www.google.com",
+    "products": "https://www.google.com",
+    "bestseller" : "https://www.google.com",
+    "help" : "https://www.google.com"
+
+  },
+
   "products": [
     {
       "id": "1",
       "title": "ESPECIAL NOVIOS",
       "price": 19.99,
       "priceOff": 19.99,
-      "image" : "images/imageWedding.png"
-      
+      "image": "images/imageWedding.png",
+      "showProduct":"https://www.google.com"
     },
     {
       "id": "2",
       "title": "SUGAR FREE",
       "price": 19.99,
       "priceOff": 19.99,
-      "image" : "images/browncake.png"
-    },
-    { "id": "3", 
-      "title": "CHOCOLATE LÚCUMA",
-      "price": 19.99,
-      "priceOff": 19.99,
-      "image" : "images/dessert.png"
-    }
-  ],
-
-  "recommended":[
-    {
-      "id": "1",
-      "type" : "/Tortas",
-      "title" : "Tortas Keto 1",
-      "beforePrice": "23.000",
-      "currentPrice":"19.000",
-      "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-      "image":"images/singleCake.png"
-    },
-    {
-      "id": "2",
-      "type" : "/Tortas", 
-      "title" : "Tortas Keto 2",
-      "beforePrice": "43.000",
-      "currentPrice":"40.000",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-      "image":"images/cake.png"
-
+      "image": "images/browncake.png",
+      "showProduct":"https://www.google.com"
     },
     {
       "id": "3",
-      "type" : "/Tortas",
-      "title" : "Tortas Keto 3",
+      "title": "CHOCOLATE LÚCUMA",
+      "price": 19.99,
+      "priceOff": 19.99,
+      "image": "images/dessert.png",
+      "showProduct":"https://www.google.com"
+    }
+  ],
+
+  "recommended": [
+    {
+      "id": "1",
+      "type": "/Tortas",
+      "title": "Tortas Keto 1",
+      "beforePrice": "23.000",
+      "currentPrice": "19.000",
+      "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image": "images/singleCake.png",
+      "gotobuy": "https://www.google.com"
+    },
+    {
+      "id": "2",
+      "type": "/Tortas",
+      "title": "Tortas Keto 2",
+      "beforePrice": "43.000",
+      "currentPrice": "40.000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image": "images/cake.png",
+      "gotobuy": "https://www.google.com"
+    },
+    {
+      "id": "3",
+      "type": "/Tortas",
+      "title": "Tortas Keto 3",
       "beforePrice": "150.000",
-      "currentPrice":"120.000",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-      "image":"images/dessert.png"
+      "currentPrice": "120.000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image": "images/dessert.png",
+      "gotobuy": "https://www.google.com"
 
     },
     {
       "id": "4",
-      "type" : "/Tortas",
-      "title" : "Tortas Keto 4",
+      "type": "/Tortas",
+      "title": "Tortas Keto 4",
       "beforePrice": "20.000",
-      "currentPrice":"15.000",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-      "image":"images/singleCake.png"
+      "currentPrice": "15.000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+      "image": "images/singleCake.png",
+      "gotobuy": "https://www.google.com"
 
     }
   ],
 
-  "classes":[
+  "classes": [
     {
-      "postres":[
+      "postres": [
         {
           "id": "1",
-          "type" : "/Tortas",
-          "title" : "Tortas Keto 1",
+          "type": "/Tortas",
+          "title": "Tortas Keto 1",
           "beforePrice": "23.000",
-          "currentPrice":"19.000",
-          "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-          "image":"images/singleCake.png"
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
         },
         {
           "id": "2",
-          "type" : "/Tortas", 
-          "title" : "Tortas Keto 2",
+          "type": "/Tortas",
+          "title": "Tortas Keto 2",
           "beforePrice": "43.000",
-          "currentPrice":"40.000",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-          "image":"images/cake.png"
-    
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",
+          "gotobuy": "https://www.google.com"
+
         },
         {
           "id": "3",
-          "type" : "/Tortas",
-          "title" : "Tortas Keto 3",
+          "type": "/Tortas",
+          "title": "Tortas Keto 3",
           "beforePrice": "150.000",
-          "currentPrice":"120.000",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-          "image":"images/dessert.png"
-    
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+
         },
         {
           "id": "4",
-          "type" : "/Tortas",
-          "title" : "Tortas Keto 4",
+          "type": "/Tortas",
+          "title": "Tortas Keto 4",
           "beforePrice": "20.000",
-          "currentPrice":"15.000",
-          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-          "image":"images/singleCake.png"
-    
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
         }
       ]
     },
 
-    {"aceites":[
-      {
-        "id": "1",
-        "type" : "/aceites",
-        "title" : "Tortas Keto 1",
-        "beforePrice": "23.000",
-        "currentPrice":"19.000",
-        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-      },
-      {
-        "id": "2",
-        "type" : "/aceites", 
-        "title" : "Tortas Keto 2",
-        "beforePrice": "43.000",
-        "currentPrice":"40.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/cake.png"
-  
-      },
-      {
-        "id": "3",
-        "type" : "/aceites",
-        "title" : "Tortas Keto 3",
-        "beforePrice": "150.000",
-        "currentPrice":"120.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/dessert.png"
-  
-      },
-      {
-        "id": "4",
-        "type" : "/aceites",
-        "title" : "Tortas Keto 4",
-        "beforePrice": "20.000",
-        "currentPrice":"15.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-  
-      }
-    ]},
-    {"frutos_secos":[
-      {
-        "id": "1",
-        "type" : "/frutos_secos",
-        "title" : "Tortas Keto 1",
-        "beforePrice": "23.000",
-        "currentPrice":"19.000",
-        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-      },
-      {
-        "id": "2",
-        "type" : "/frutos_secos", 
-        "title" : "Tortas Keto 2",
-        "beforePrice": "43.000",
-        "currentPrice":"40.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/cake.png"
-  
-      },
-      {
-        "id": "3",
-        "type" : "/frutos_secos",
-        "title" : "Tortas Keto 3",
-        "beforePrice": "150.000",
-        "currentPrice":"120.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/dessert.png"
-  
-      },
-      {
-        "id": "4",
-        "type" : "/frutos_secos",
-        "title" : "Tortas Keto 4",
-        "beforePrice": "20.000",
-        "currentPrice":"15.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-  
-      }
-    ]},
+    {
+      "aceites": [
+        {
+          "id": "1",
+          "type": "/aceites",
+          "title": "Tortas Keto 1",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
 
-    {"packs":[
-      {
-        "id": "1",
-        "type" : "/packs",
-        "title" : "Tortas Keto 1",
-        "beforePrice": "23.000",
-        "currentPrice":"19.000",
-        "description" : "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-      },
-      {
-        "id": "2",
-        "type" : "/packs", 
-        "title" : "Tortas Keto 2",
-        "beforePrice": "43.000",
-        "currentPrice":"40.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/cake.png"
-  
-      },
-      {
-        "id": "3",
-        "type" : "/packs",
-        "title" : "Tortas Keto 3",
-        "beforePrice": "150.000",
-        "currentPrice":"120.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/dessert.png"
-  
-      },
-      {
-        "id": "4",
-        "type" : "/packs",
-        "title" : "Tortas Keto 4",
-        "beforePrice": "20.000",
-        "currentPrice":"15.000",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-        "image":"images/singleCake.png"
-  
-      }
-    ]}
+        },
+        {
+          "id": "2",
+          "type": "/aceites",
+          "title": "Tortas Keto 2",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",          
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "3",
+          "type": "/aceites",
+          "title": "Tortas Keto 3",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "4",
+          "type": "/aceites",
+          "title": "Tortas Keto 4",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
+        }
+      ]
+    },
+    {
+      "frutos_secos": [
+        {
+          "id": "1",
+          "type": "/frutos_secos",
+          "title": "Tortas Keto 1",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "2",
+          "type": "/frutos_secos",
+          "title": "Tortas Keto 2",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",       
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "3",
+          "type": "/frutos_secos",
+          "title": "Tortas Keto 3",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "4",
+          "type": "/frutos_secos",
+          "title": "Tortas Keto 4",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
+        }
+      ]
+    },
+
+    {
+      "packs": [
+        {
+          "id": "1",
+          "type": "/packs",
+          "title": "Tortas Keto 1",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "2",
+          "type": "/packs",
+          "title": "Tortas Keto 2",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "3",
+          "type": "/packs",
+          "title": "Tortas Keto 3",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+
+        },
+        {
+          "id": "4",
+          "type": "/packs",
+          "title": "Tortas Keto 4",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+
+        }
+      ]
+    }
   ],
 
   "coupons": [
     {
       "id": "1",
-      "subtitle" : "LOREM IPSUM 1",
-      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
-      "companyname" : "COMPANYNAME",
-      "percentage" : "50%",
+      "subtitle": "LOREM IPSUM 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
+      "companyname": "COMPANYNAME",
+      "percentage": "50%",
       "finalRef": "LOREM IPSUM"
     },
     {
       "id": "2",
-      "subtitle" : "LOREM IPSUM 2",
-      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
-      "companyname" : "COMPANYNAME",
-      "percentage" : "50%",
+      "subtitle": "LOREM IPSUM 2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
+      "companyname": "COMPANYNAME",
+      "percentage": "50%",
       "finalRef": "LOREM IPSUM"
     },
     {
       "id": "3",
-      "subtitle" : "LOREM IPSUM 3",
-      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
-      "companyname" : "COMPANYNAME",
-      "percentage" : "50%",
+      "subtitle": "LOREM IPSUM 3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
+      "companyname": "COMPANYNAME",
+      "percentage": "50%",
       "finalRef": "LOREM IPSUM"
     },
     {
       "id": "4",
-      "subtitle" : "LOREM IPSUM 4",
-      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
-      "companyname" : "COMPANYNAME",
-      "percentage" : "50%",
+      "subtitle": "LOREM IPSUM 4",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit unde vel ut asperiores..",
+      "companyname": "COMPANYNAME",
+      "percentage": "50%",
       "finalRef": "LOREM IPSUM"
     }
-    
-
   ],
 
-  "links":{
-    "whereProduct" : "www.google.com",
+  "links": {
+    "whereProduct": "www.google.com",
     "chat": "www.google.com",
     "help": "www.google.com",
-    "privacyPolitics" : "www.google.com",
-    "terms":"www.google.com",
-    "feedback" : "www.google.com"
+    "privacyPolitics": "www.google.com",
+    "terms": "www.google.com",
+    "feedback": "www.google.com"
   },
 
-  "networks":{
+  "networks": {
     "facebook": "https://www.facebook.com",
     "instagram": "https://www.instagram.com",
-    "twitter" : "https://wwww.twitter.com",
-    "linkedin" : "https://www.linkedin.com"
+    "twitter": "https://wwww.twitter.com",
+    "linkedin": "https://www.linkedin.com"
   }
-
-  
-
 }

@@ -46,6 +46,7 @@ const Products = ({ classes }) => {
                 beforePrice={p.beforePrice}
                 currentPrice={p.currentPrice}
                 image={p.image}
+                gotobuy={p.gotobuy}
               ></CardProduct>
             ))}
           {products === 2 &&
@@ -58,6 +59,7 @@ const Products = ({ classes }) => {
                 beforePrice={p.beforePrice}
                 currentPrice={p.currentPrice}
                 image={p.image}
+                gotobuy={p.gotobuy}
               ></CardProduct>
             ))}
 
@@ -71,6 +73,7 @@ const Products = ({ classes }) => {
                 beforePrice={p.beforePrice}
                 currentPrice={p.currentPrice}
                 image={p.image}
+                gotobuy={p.gotobuy}
               ></CardProduct>
             ))}
 
@@ -84,6 +87,7 @@ const Products = ({ classes }) => {
                 beforePrice={p.beforePrice}
                 currentPrice={p.currentPrice}
                 image={p.image}
+                gotobuy={p.gotobuy}
               ></CardProduct>
             ))}
         </LayoutCardsProducts>

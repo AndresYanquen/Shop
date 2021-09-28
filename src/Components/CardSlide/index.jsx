@@ -11,7 +11,7 @@ const CardSlide = ({ cards, render }) => {
   const renderNumber = (render) => {
     switch (render) {
       case 1:
-        return 600;
+        return 650;
         break;
 
       case 2:
@@ -26,7 +26,7 @@ const CardSlide = ({ cards, render }) => {
     <div style={{ width: "100%", marginTop: "20px" }}>
       <SwiperLayout
         breakpoints={{
-          renderNumber: {
+          650: {
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 10,

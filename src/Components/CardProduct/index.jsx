@@ -17,6 +17,7 @@ const CardProduct = ({
   beforePrice,
   currentPrice,
   image,
+  gotobuy,
 }) => {
   return (
     <LayoutCardSlide>
@@ -31,11 +32,13 @@ const CardProduct = ({
               <h1>{beforePrice}</h1>
               <h2>{currentPrice}</h2>
             </Prices>
-            <Button>
-              <ButtonPlace>
-                <img src="icons/locker.svg" alt="locker" /> <h1> Comprar </h1>
-              </ButtonPlace>
-            </Button>
+            <a href={gotobuy}>
+              <Button>
+                <ButtonPlace>
+                  <img src="icons/locker.svg" alt="locker" /> <h1> Comprar </h1>
+                </ButtonPlace>
+              </Button>
+            </a>
           </Sales>
         </Text>
       </CardItem>

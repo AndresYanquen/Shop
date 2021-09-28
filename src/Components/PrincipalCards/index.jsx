@@ -17,7 +17,7 @@ const PrincipalCards = (props) => {
           <h2> $19.990</h2>
           <h1>$19.990</h1>
         </PriceOff>
-        <a href="https://www.google.com">
+        <a href={props.showProduct}>
           <Button> Ver Productos</Button>{" "}
         </a>
       </BoxBottom>
