@@ -37,9 +37,9 @@ function App() {
         </LayoutSlide>
       </LayoutCoupun>
       <LayoutFooter>
-        <Footer></Footer>
+        <Footer links={Data.links}></Footer>
       </LayoutFooter>
-      <SocialNetworks></SocialNetworks>
+      <SocialNetworks networks={Data.networks}></SocialNetworks>
     </Layout>
   );
 }

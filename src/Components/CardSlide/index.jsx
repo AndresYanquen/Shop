@@ -9,16 +9,23 @@ SwiperCore.use([Navigation]);
 
 const CardSlide = ({ cards, render }) => {
   return (
-    <div style={{ width: "100hw" }}>
+    <div style={{ width: "100hw", marginTop: "20px" }}>
       <SwiperLayout
         breakpoints={{
           650: {
             slidesPerView: 2,
             slidesPerGroup: 2,
+            spaceBetween: 100,
           },
           1050: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            spaceBetween: 40,
+          },
+          1200: {
             slidesPerView: 4,
             slidesPerGroup: 4,
+            spaceBetween: 40,
           },
         }}
         render={render}
@@ -34,7 +41,7 @@ const CardSlide = ({ cards, render }) => {
 
         {render === 2 &&
           cards.map((p) => (
-            <SwiperSlide style={{ marginRight: "40px" }} key={p.id}>
+            <SwiperSlide key={p.id}>
               <CardCoupon key={p.id} {...p}></CardCoupon>
             </SwiperSlide>
           ))}

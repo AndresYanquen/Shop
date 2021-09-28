@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Card from "@mui/material/Card";
 
 export const LayoutCardSlide = styled.div`
-  margin-top: 20px;
   width: 283px;
   height: 388px;
   display: flex;

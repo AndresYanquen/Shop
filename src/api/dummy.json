@@ -276,7 +276,23 @@
     }
     
 
-  ]
+  ],
+
+  "links":{
+    "whereProduct" : "www.google.com",
+    "chat": "www.google.com",
+    "help": "www.google.com",
+    "privacyPolitics" : "www.google.com",
+    "terms":"www.google.com",
+    "feedback" : "www.google.com"
+  },
+
+  "networks":{
+    "facebook": "www.facebook.com",
+    "instagram": "www.instagram.com",
+    "twitter" : "wwww.twitter.com",
+    "linkedin" : "www.linkedin.com"
+  }
 
   
 

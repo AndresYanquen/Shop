@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const LayoutProducts = styled.div`
   width: 100%;
   height: auto;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,11 @@ export const LayoutButtons = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
+  @media (min-width: 650px) {
+    display: flex;
+    flex-direction: row;
+  }
 `;
 
 export const Button = styled.button`
@@ -38,6 +42,9 @@ export const Button = styled.button`
     font-weight: 550;
     font-size: 13px;
     line-height: 18px;
+  }
+  @media (min-width: 650px) {
+    margin: 10px 10px 0px 0px;
   }
 `;
 
