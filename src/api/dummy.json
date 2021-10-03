@@ -20,7 +20,51 @@
       "price": 19.99,
       "priceOff": 19.99,
       "image": "images/imageWedding.png",
-      "showProduct":"https://www.google.com"
+      "showProduct":"https://www.google.com",
+      "recommended":[
+        {
+          "id": "1",
+          "type": "/Tortas",
+          "title": "Recomendado 1 Novios Novios Novios Novios",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "2",
+          "type": "/Tortas",
+          "title": "Recomendado 2 Novios Novios Novios",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "3",
+          "type": "/Tortas",
+          "title": "Recomendado 3 Novios Novios",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+    
+        },
+        {
+          "id": "4",
+          "type": "/Tortas",
+          "title": "Recomendado 4 Novios",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+    
+        }
+      ]
     },
     {
       "id": "2",
@@ -28,7 +72,51 @@
       "price": 19.99,
       "priceOff": 19.99,
       "image": "images/browncake.png",
-      "showProduct":"https://www.google.com"
+      "showProduct":"https://www.google.com",
+      "recommended":[
+        {
+          "id": "1",
+          "type": "/Tortas",
+          "title": "Recomendado 1 Sugar Free",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "2",
+          "type": "/Tortas",
+          "title": "Recomendado 2 Sugar Free",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "3",
+          "type": "/Tortas",
+          "title": "Recomendado 3 Sugar Free",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+    
+        },
+        {
+          "id": "4",
+          "type": "/Tortas",
+          "title": "Recomendado 4 Sugar Free",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+    
+        }
+      ]
     },
     {
       "id": "3",
@@ -36,7 +124,51 @@
       "price": 19.99,
       "priceOff": 19.99,
       "image": "images/dessert.png",
-      "showProduct":"https://www.google.com"
+      "showProduct":"https://www.google.com",
+      "recommended":[
+        {
+          "id": "1",
+          "type": "/Tortas",
+          "title": "Recomendado 1 CH LUCUMA",
+          "beforePrice": "23.000",
+          "currentPrice": "19.000",
+          "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "2",
+          "type": "/Tortas",
+          "title": "Recomendado 2 CH LUCUMA",
+          "beforePrice": "43.000",
+          "currentPrice": "40.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/cake.png",
+          "gotobuy": "https://www.google.com"
+        },
+        {
+          "id": "3",
+          "type": "/Tortas",
+          "title": "Recomendado 3 CH LUCUMA",
+          "beforePrice": "150.000",
+          "currentPrice": "120.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/dessert.png",
+          "gotobuy": "https://www.google.com"
+    
+        },
+        {
+          "id": "4",
+          "type": "/Tortas",
+          "title": "Recomendado 4 CH LUCUMA",
+          "beforePrice": "20.000",
+          "currentPrice": "15.000",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
+          "image": "images/singleCake.png",
+          "gotobuy": "https://www.google.com"
+    
+        }
+      ]
     }
   ],
 
@@ -44,7 +176,7 @@
     {
       "id": "1",
       "type": "/Tortas",
-      "title": "Tortas Keto 1",
+      "title": "Tortas Keto 1 ",
       "beforePrice": "23.000",
       "currentPrice": "19.000",
       "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",

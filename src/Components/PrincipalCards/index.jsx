@@ -5,8 +5,14 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { BoxBottom, BoxTop, Button, CardLayout, PriceOff } from "./styled";
+import { Link } from "react-router-dom";
 
 const PrincipalCards = (props) => {
+  const itemSelected = "products";
+  const routeData = {
+    pathname: `/detail/${props.id}/${itemSelected}/${props.title}`,
+    state: { test: true },
+  };
   return (
     <CardLayout url={props.image}>
       <BoxTop>
@@ -17,9 +23,9 @@ const PrincipalCards = (props) => {
           <h2> $19.990</h2>
           <h1>$19.990</h1>
         </PriceOff>
-        <a href={props.showProduct}>
-          <Button> Ver Productos</Button>{" "}
-        </a>
+        <Link to={routeData}>
+          <Button> Ver Productos</Button>
+        </Link>
       </BoxBottom>
     </CardLayout>
   );
