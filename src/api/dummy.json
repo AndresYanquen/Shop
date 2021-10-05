@@ -25,17 +25,17 @@
         {
           "id": "1",
           "type": "/Tortas",
-          "title": "Recomendado 1 Novios Novios Novios Novios",
+          "title": "Recomendado 1 Novios",
           "beforePrice": "23.000",
           "currentPrice": "19.000",
           "description": "Lore0m ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
-          "image": "images/singleCake.png",
+          "image": "images/tortilla_chocolate.png",
           "gotobuy": "https://www.google.com"
         },
         {
           "id": "2",
           "type": "/Tortas",
-          "title": "Recomendado 2 Novios Novios Novios",
+          "title": "Recomendado 2 Novios ",
           "beforePrice": "43.000",
           "currentPrice": "40.000",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",
@@ -45,7 +45,7 @@
         {
           "id": "3",
           "type": "/Tortas",
-          "title": "Recomendado 3 Novios Novios",
+          "title": "Recomendado 3 Novios ",
           "beforePrice": "150.000",
           "currentPrice": "120.000",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nibh semper nibh congue arcu...",

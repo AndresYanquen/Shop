@@ -26,6 +26,13 @@ export const ContainerFooter = styled.div`
     text-decoration: none;
     color: white;
   }
+
+  @media (min-width: 769px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 `;
 
 export const CreditCards = styled.div`
@@ -36,4 +43,21 @@ export const CreditCards = styled.div`
   img {
     margin-right: 10px;
   }
+`;
+
+export const MediosPago = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Enlaces = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+`;
+
+export const ServicioCliente = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
 `;

@@ -31,6 +31,22 @@ export const LayoutImage = styled.div`
   }
 `;
 
+export const LayoutText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 17%;
+  @media (min-width: 1100px) {
+    align-items: flex-start;
+    align-self: baseline;
+    margin-left: 10%;
+  }
+  @media (min-width: 1200px) {
+    margin-left: 15%;
+  }
+`;
+
 export const LayoutDetailInfo = styled.div`
   width: 90%;
   margin-top: 15px;
@@ -66,6 +82,34 @@ export const LayoutDetailInfo = styled.div`
   @media (min-width: 700px) {
     width: 700px;
   }
+  @media (min-width: 900px) {
+    h2 {
+      width: 70%;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: justify;
+    }
+  }
+  @media (min-width: 1100px) {
+    h2 {
+      width: 75%;
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: justify;
+    }
+  }
+`;
+
+export const BtnLayout = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 769px) {
+    flex-direction: row;
+  }
 `;
 
 export const Button = styled.button`
@@ -74,13 +118,19 @@ export const Button = styled.button`
   display: inline-block;
   border-radius: 4px 4px 4px 4px;
   border: none;
-  width: 228px;
+  width: 280px;
   height: 50px;
   background: black;
   box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.64);
   h5 {
     font-size: 11px;
     font-weight: 700;
+  }
+  @media (min-width: 769px) {
+    width: 150px;
+  }
+  @media (min-width: 1100px) {
+    width: 228px;
   }
 `;
 
@@ -90,13 +140,19 @@ export const ButtonBuy = styled.button`
   display: inline-block;
   border-radius: 4px 4px 4px 4px;
   border: none;
-  width: 228px;
+  width: 280px;
   height: 50px;
   background: #e32929;
   box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.64);
   h5 {
     font-size: 11px;
     font-weight: 700;
+  }
+  @media (min-width: 769px) {
+    width: 150px;
+  }
+  @media (min-width: 1100px) {
+    width: 228px;
   }
 `;
 

@@ -4,6 +4,7 @@ import { LayoutCards } from "../../styled";
 import CardProduct from "../CardProduct";
 import { LayoutCardsProducts } from "../Products/styled";
 import {
+  BtnLayout,
   Button,
   ButtonBuy,
   CenterLayout,
@@ -12,38 +13,64 @@ import {
   LayoutImage,
   LayoutP,
   LayoutRecommended,
+  LayoutText,
 } from "./styled";
 
 const ProductDetail = (props) => {
   const { data } = useContext(DataContext);
-  console.log(parseInt(props.match.params.id));
+  console.log(1, props.location.state);
   console.log(15, data.products[0].recommended);
   return (
     <LayoutP>
       <LayoutContentDetail>
         <LayoutImage>
           <img
-            src="images/tortilla_chocolate.png"
+            src={
+              data.products[parseInt(props.match.params.id) - 1].recommended[0]
+                .image
+            }
             alt="tortilla de chocolate"
           />
         </LayoutImage>
         <LayoutDetailInfo>
-          <h4> INICIO / TORTAS / TORTA CHOCOLATE FRUTILLA</h4>
-          <h1>Torta Chocolate Frutilla</h1>
-          <h4> SKU 00234 </h4>
-          <h3>$ 19.990</h3>
-          <Button>
-            <h5> Añadir a Carrito</h5>
-          </Button>
-          <ButtonBuy>
-            <h5> Añadir a Carrito</h5>
-          </ButtonBuy>
+          <LayoutText>
+            <h4>
+              {" "}
+              Inicio{" "}
+              {
+                data.products[parseInt(props.match.params.id) - 1]
+                  .recommended[0].type
+              }
+            </h4>
+            <h1>
+              {
+                data.products[parseInt(props.match.params.id) - 1]
+                  .recommended[0].title
+              }
+            </h1>
+            <h4> SKU 00234 </h4>
+            <h3>
+              $
+              {
+                data.products[parseInt(props.match.params.id) - 1]
+                  .recommended[0].currentPrice
+              }
+            </h3>
+          </LayoutText>
+
+          <BtnLayout>
+            <Button>
+              <h5> Añadir a Carrito</h5>
+            </Button>
+            <ButtonBuy>
+              <h5> Comprar Ahora</h5>
+            </ButtonBuy>
+          </BtnLayout>
           <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            fames eget suscipit facilisis senectus. Accumsan odio enim est,
-            faucibus egestas vitae semper commodo vestibulum. Diam adipiscing
-            diam nunc faucibus facilisis. Congue leo elementum fringilla lectus
-            scelerisque leo.
+            {
+              data.products[parseInt(props.match.params.id) - 1].recommended[0]
+                .description
+            }
           </h2>
         </LayoutDetailInfo>
       </LayoutContentDetail>
