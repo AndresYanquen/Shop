@@ -23,7 +23,7 @@ const PrincipalCards = (props) => {
           <h2> $19.990</h2>
           <h1>$19.990</h1>
         </PriceOff>
-        <Link to={routeData}>
+        <Link to={routeData} target="_blank">
           <Button> Ver Productos</Button>
         </Link>
       </BoxBottom>

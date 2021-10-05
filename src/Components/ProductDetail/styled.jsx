@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export const LayoutP = styled.div`
   font-family: "Roboto";
@@ -29,6 +30,12 @@ export const LayoutImage = styled.div`
     width: 300px;
     height: 210px;
   }
+`;
+
+export const SwiperImage = styled(Swiper)`
+  width: 300px;
+  height: 210px;
+  border-radius: 10px;
 `;
 
 export const LayoutText = styled.div`

@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
 import { LayoutCards } from "../../styled";
 import CardProduct from "../CardProduct";
+import CardSlide from "../CardSlide";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { LayoutCardsProducts } from "../Products/styled";
 import {
   BtnLayout,
@@ -14,6 +16,7 @@ import {
   LayoutP,
   LayoutRecommended,
   LayoutText,
+  SwiperImage,
 } from "./styled";
 
 const ProductDetail = (props) => {
@@ -24,13 +27,35 @@ const ProductDetail = (props) => {
     <LayoutP>
       <LayoutContentDetail>
         <LayoutImage>
-          <img
-            src={
-              data.products[parseInt(props.match.params.id) - 1].recommended[0]
-                .image
-            }
-            alt="tortilla de chocolate"
-          />
+          <SwiperImage navigation={true} className="mySwiper">
+            <SwiperSlide>
+              <img
+                src={
+                  data.products[parseInt(props.match.params.id) - 1]
+                    .recommended[0].image
+                }
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={
+                  data.products[parseInt(props.match.params.id) - 1]
+                    .recommended[0].imageRef1
+                }
+                alt=""
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={
+                  data.products[parseInt(props.match.params.id) - 1]
+                    .recommended[0].imageRef2
+                }
+                alt=""
+              />
+            </SwiperSlide>
+          </SwiperImage>
         </LayoutImage>
         <LayoutDetailInfo>
           <LayoutText>

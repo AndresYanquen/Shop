@@ -59,6 +59,15 @@ const CardSlide = ({ cards, render }) => {
               <CardCoupon key={p.id} {...p}></CardCoupon>
             </SwiperSlide>
           ))}
+        {render === 3 && (
+          <>
+            <SwiperSlide> <img src="images/cake.png" alt="cake" /></SwiperSlide>
+            <SwiperSlide><img src="images/cake.png" alt="cake" /></SwiperSlide>
+            <SwiperSlide><img src="images/cake.png" alt="cake" /></SwiperSlide>
+            <SwiperSlide><img src="images/cake.png" alt="cake" /></SwiperSlide>
+
+          </>
+        )}
       </SwiperLayout>
     </div>
   );
